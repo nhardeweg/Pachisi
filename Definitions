@@ -9,6 +9,7 @@ Spielfeldtyp	FieldType
 Startfeld		Start
 Startzone		Hut
 Zielzone		Home
+Würfel			Dice
 
 
 // No Shit, Sherlock.
