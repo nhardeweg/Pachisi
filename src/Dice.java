@@ -24,7 +24,7 @@ public class Dice
 	}
 	else
 	{
-	    return rand.nextInt();
+	    return rand.nextInt(6)+1;
 	}
     }
 }
