@@ -1,25 +1,25 @@
 
 public class Field
 {
-    private boolean isHome;
+    private FieldType type;
     private Piece occupied;
     private final int NUMBER;
     
-    public Field(boolean isHome, int number)
+    public Field(int number, FieldType type)
     {
-	this.isHome = isHome;
+	this.type = type;
 	this.occupied = null;
 	this.NUMBER = number;
     }
-
-    public boolean isHome()
+    
+    public Field(int number)
     {
-        return isHome;
+	this(number,FieldType.Default);
     }
 
-    public void setHome(boolean isHome)
+    public FieldType getType()
     {
-        this.isHome = isHome;
+        return this.type;
     }
 
     public Piece getOccupied()
