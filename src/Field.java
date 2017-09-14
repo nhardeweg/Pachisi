@@ -32,7 +32,7 @@ public class Field
         this.occupied = occupied;
     }
 
-    public int getNUMBER()
+    public int getNumber()
     {
         return this.NUMBER;
     }
