@@ -2,10 +2,10 @@ import java.util.List;
 
 public abstract class Board
 {
-    protected Field[]	fields;
-    protected int[]	starts;
-    protected int	SIZE;
-    protected int	PLAYERS;
+    protected Field[] fields;
+    protected int[] starts;
+    protected int SIZE;
+    protected int PLAYERS;
      
     public void initFields()
     {

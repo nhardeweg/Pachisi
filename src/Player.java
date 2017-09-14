@@ -1,8 +1,8 @@
 
 public class Player
 {
-    private final int    START;
-    private final int    END;
+    private final int START;
+    private final int END;
     private final String NAME;
    
     public Player(int start, int end, String name)

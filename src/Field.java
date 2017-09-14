@@ -1,9 +1,9 @@
 
 public class Field
 {
-    private boolean	isHome;
-    private Piece	occupied;
-    private final int 	NUMBER;
+    private boolean isHome;
+    private Piece occupied;
+    private final int NUMBER;
     
     public Field(boolean isHome, int number)
     {
@@ -34,6 +34,6 @@ public class Field
 
     public int getNUMBER()
     {
-        return NUMBER;
+        return this.NUMBER;
     }
 }
