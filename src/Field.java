@@ -2,13 +2,13 @@
 public class Field
 {
     private FieldType type;
-    private Piece occupied;
+    private Piece occupiedBy;
     private final int NUMBER;
     
     public Field(int number, FieldType type)
     {
 	this.type = type;
-	this.occupied = null;
+	this.occupiedBy = null;
 	this.NUMBER = number;
     }
     
@@ -24,12 +24,12 @@ public class Field
 
     public Piece getOccupied()
     {
-        return occupied;
+        return occupiedBy;
     }
 
     public void setOccupied(Piece occupied)
     {
-        this.occupied = occupied;
+        this.occupiedBy = occupied;
     }
 
     public int getNumber()

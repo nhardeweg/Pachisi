@@ -1,23 +1,21 @@
                        
 public class Piece
 {
-    private Player player;
     private Field field;
  
     
-    public Piece(Player player, Field startfield)
+    public Piece()
     {
-	this.player = player;
-	this.setField(startfield);
+		this.field = null;  // null = hut
     }
     
     public Field getField()
     {
-	return this.field;
+    	return this.field;
     }
     
     public void setField(Field field)
     {
-	this.field = field;
+    	this.field = field;
     }
 }
