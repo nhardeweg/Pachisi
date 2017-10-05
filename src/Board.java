@@ -9,20 +9,20 @@ public abstract class Board
      
     public void initFields()
     {
-		this.fields = new Field[this.SIZE];
-		this.homes = new Field[this.PLAYERS][4];
+	this.fields = new Field[this.SIZE];
+	this.homes = new Field[this.PLAYERS][4];
 		
-		// Normale Felder
-		for(int i = 0; i < this.SIZE; i++)
-		{
-		    this.fields[i] = new Field(i);
-		}
-		// Huts & Homes angeben
-		for(int i = 0; i < this.PLAYERS; i++)
-		    for(int j = 0; j < 4; j++)
-		    {
-				this.homes[i][j] = new Field(j, FieldType.Home);
-		    }
+	// Normale Felder
+	for(int i = 0; i < this.SIZE; i++)
+	{
+	    this.fields[i] = new Field(i);
+	}
+	// Huts & Homes angeben
+	for(int i = 0; i < this.PLAYERS; i++)
+	    for(int j = 0; j < 4; j++)
+	    {
+		this.homes[i][j] = new Field(j, FieldType.Home);
+	    }
 	
     }
     public Field[] getFields()
