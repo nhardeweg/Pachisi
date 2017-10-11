@@ -1,0 +1,7 @@
+- throw dice 3 times if start of the game and all pieces are in the hut or if no piece is able to move (create method in Dice class? additional counter in Game class? any other idea?)
+
+- if you got a 6, throw another dice
+
+- movement from board to home (class Player method movePiece line 47 following
+
+- if you can beat someone, that action has priority, if you can beat more than one enemy piece you can choose
