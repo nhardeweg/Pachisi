@@ -7,24 +7,24 @@ public class Dice
     
     public Dice(boolean isNetworkDice)
     {
-	rand = new Random(System.currentTimeMillis());
-	this.isNetworkDice = isNetworkDice;
-    }
-    
-    public Dice()
-    {
-	this(false);
+		rand = new Random(System.currentTimeMillis());
+		this.isNetworkDice = isNetworkDice;
+	    }
+	    
+	    public Dice()
+	    {
+		this(false);
     }
     
     public int roll()
     {
-	if(isNetworkDice)
-	{
-	    return 4; // Platzhalter. Leb damit, Nils
-	}
-	else
-	{
-	    return rand.nextInt(6)+1;
-	}
+		if(isNetworkDice)
+		{
+		    return 4; // Platzhalter. Leb damit, Nils
+		}
+		else
+		{
+		    return rand.nextInt(6)+1;
+		}
     }
 }

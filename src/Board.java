@@ -49,4 +49,10 @@ public abstract class Board
     	}
     	return null;
     }
+    
+    public void printBoard(){
+    	for( int i = 0; i< fields.length; i++){
+    		System.out.println(fields[i].getNumber() + "    "  + fields[i].getOccupied() );
+    	}
+    }
 }
